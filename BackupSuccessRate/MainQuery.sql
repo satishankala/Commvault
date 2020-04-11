@@ -5,6 +5,8 @@ sp_configure 'xp_cmdshell',1
 go
 reconfigure with override
 exec xp_cmdshell "Del C:output.txt"
+--Drops the Temporary Table.
+drop table ##backup_alert
 go
 --To generate output.txt
 exec xp_cmdshell "C:\sqlcmd.bat"
