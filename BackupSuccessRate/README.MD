@@ -11,7 +11,7 @@ Alternatively work with your DB admin and create a new job in ‘SQL Server Agen
 
 Email Report looks like below :)
 
-![Image of Backup Report](https://octodex.github.com/images/yaktocat.png)
+![Image of Backup Report](https://raw.githubusercontent.com/satishankala/Commvault/master/BackupSuccessRate/example.PNG)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
