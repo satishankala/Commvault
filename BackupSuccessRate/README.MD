@@ -8,3 +8,8 @@ c)	Login to Commserve and connect to SQL management studio (as administrator) us
 d)	open the MainQuery.sql and update the email address and test it.
 ```
 Alternatively work with your DB admin and create a new job in ‘SQL Server Agent’ and add this script as a step and schedule to run every 24 hours.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
