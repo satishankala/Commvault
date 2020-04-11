@@ -33,7 +33,7 @@ select *
 from 
 (
   select idataagent, [jobstatus]
-  from [CommServ].[dbo].[CommCellBackupInfo] WHERE startdate > DATEADD(day, -1, GETDATE()) and subclient NOT LIKE '%ECS_TEMP%'
+  from [CommServ].[dbo].[CommCellBackupInfo] WHERE startdate > DATEADD(day, -1, GETDATE())
 ) src
 pivot
 (

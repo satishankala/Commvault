@@ -1,1 +1,1 @@
-sqlcmd -S USSCLPDCMVSRV01\COMMVAULT -U sa -P 1StrongPassword! -i  "C:\sqlquery.sql" >>C:\output.txt -h  -1  -s ","
+sqlcmd -S MASTER_SERVER\COMMVAULT -U sa -P 1StrongPassword! -i  "C:\sqlquery.sql" >>C:\output.txt -h  -1  -s ","
